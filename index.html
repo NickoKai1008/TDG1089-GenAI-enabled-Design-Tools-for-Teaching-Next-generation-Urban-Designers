@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TDG Project 1089: a GenAI-enabled urban design teaching workflow that reconstructs missing conditions, interprets lived experience, generates alternatives and returns evidence to design.">
+  <title>TDG 1089 | The City as a Learning Loop</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="module" src="assets/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#overview" aria-label="TDG Project 1089 home">
+      <span class="brand-mark">1089</span>
+      <span class="brand-copy">Teaching Development Grant<br><strong>Urban Design + GenAI</strong></span>
+    </a>
+    <nav class="site-nav" aria-label="Project sections">
+      <a href="#overview">Overview</a>
+      <a href="#phase-1">Phase 1</a>
+      <a href="#phase-2">Phase 2</a>
+      <a href="#phase-3">Phase 3</a>
+      <a href="#resources">Resources</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="overview">
+      <div class="hero-copy">
+        <p class="eyebrow">TDG Project 1089 · Project Outcome Resource</p>
+        <h1>A GenAI-Enabled Urban Design Teaching Workflow</h1>
+        <p class="hero-subtitle">The City as a Learning Loop</p>
+        <p class="hero-summary">Students reconstruct conditions that conventional observations miss, test whether those representations deserve trust, connect environmental evidence to lived behaviour, generate urban alternatives and return the results to renewed observation.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#workflow">Explore the workflow</a>
+          <a class="button button-secondary" href="#rating-lab">Try the perception study</a>
+        </div>
+      </div>
+
+      <aside class="project-card" aria-label="Project details">
+        <p class="status-label">Project information</p>
+        <dl>
+          <div><dt>Project title</dt><dd>GenAI-enabled Design Tools for Teaching Next-generation Urban Designers</dd></div>
+          <div><dt>PI</dt><dd>Prof. Waishan Qiu</dd></div>
+          <div><dt>Core Members</dt><dd>Yuankai Wang, Xiaotong Ye</dd></div>
+          <div><dt>Contributors</dt><dd>Laipeng Xu, Xinyi Kong, Chengxuan Zhang</dd></div>
+          <div><dt>Department</dt><dd>Urban Planning and Design, Faculty of Architecture</dd></div>
+          <div><dt>Project period</dt><dd>1 July 2025 – 30 June 2026</dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="section workflow-section" id="workflow">
+      <div class="section-heading heading-wide">
+        <p class="eyebrow">One iterative learning loop</p>
+        <h2>Three Critical Phases of the Urban Design Workflow</h2>
+        <p>The proposal-defined phases remain visible, but the learning experience is continuous: reveal the evidence gap, reconstruct missing conditions, ground synthetic evidence, interpret urban use, generate alternatives and re-audit the proposal.</p>
+      </div>
+
+      <div class="workflow-grid" aria-label="Three-phase iterative workflow">
+        <a class="phase-card phase-one" href="#phase-1">
+          <span class="phase-number">Phase 1</span>
+          <h3>Site Information Collection</h3>
+          <p>GenAI reconstructs nighttime conditions that are incomplete in conventional site records, then exposes them to validation.</p>
+          <ol>
+            <li>Existing site and street-view data</li>
+            <li>NightDiff nighttime synthesis</li>
+            <li>Human perception validation</li>
+          </ol>
+        </a>
+        <span class="workflow-arrow" aria-hidden="true">→</span>
+        <a class="phase-card phase-two" href="#phase-2">
+          <span class="phase-number">Phase 2</span>
+          <h3>Predictive User Behavior Analysis</h3>
+          <p>Comparative analysis examines observed space use and environmental mismatch, while predictive mapping estimates travel intensity and user-demand patterns from urban imagery.</p>
+          <ol>
+            <li>Compare nighttime-light representations</li>
+            <li>Relate environmental measures to activity</li>
+            <li>Diagnose spatial mismatch</li>
+          </ol>
+        </a>
+        <span class="workflow-arrow" aria-hidden="true">→</span>
+        <a class="phase-card phase-three" href="#phase-3">
+          <span class="phase-number">Phase 3</span>
+          <h3>Iterative Design Ideation</h3>
+          <p>Parametric search and generative scenario testing produce alternatives that can be evaluated, compared and returned to the learning loop.</p>
+          <ol>
+            <li>Define objectives and constraints</li>
+            <li>Generate morphology alternatives</li>
+            <li>Evaluate, select and iterate</li>
+          </ol>
+        </a>
+      </div>
+
+      <div class="return-path">
+        <span class="return-arrow" aria-hidden="true">↶</span>
+        <p><strong>Return path:</strong> evaluated alternatives become new visual and spatial conditions for observation, perception assessment and design refinement.</p>
+      </div>
+
+      <div class="loop-detail-heading">
+        <p class="status-label">Six connected actions across the three phases</p>
+        <p>These actions explain how evidence is carried forward without replacing the proposal-defined structure above.</p>
+      </div>
+
+      <ol class="narrative-loop" aria-label="Six actions in the iterative learning loop">
+        <li><span>01</span><strong>Reveal</strong><small>Find what conventional evidence misses.</small></li>
+        <li><span>02</span><strong>Reconstruct</strong><small>Represent missing day–night conditions.</small></li>
+        <li><span>03</span><strong>Ground</strong><small>Test synthetic evidence against measurements and judgement.</small></li>
+        <li><span>04</span><strong>Interpret</strong><small>Relate environmental evidence to urban activity.</small></li>
+        <li><span>05</span><strong>Generate</strong><small>Create and compare design alternatives.</small></li>
+        <li><span>06</span><strong>Re-audit</strong><small>Return outcomes to the next observation cycle.</small></li>
+      </ol>
+    </section>
+
+    <section class="section phase-section phase-section-one" id="phase-1">
+      <div class="section-heading">
+        <p class="eyebrow">Phase 1 · Research prototype and validation evidence</p>
+        <h2>Site Information Collection</h2>
+        <p>Urban sites change across the day, yet site records are often dominated by daytime observations. NightDiff reconstructs missing nighttime conditions; representative comparisons, physical illuminance measurements and human assessment determine how those synthetic views can be used responsibly.</p>
+      </div>
+
+      <div class="method-strip" aria-label="Phase 1 method sequence">
+        <article><span>1.1</span><h3>Observe</h3><p>Assemble site, satellite, street-view and contextual data.</p></article>
+        <article><span>1.2</span><h3>Synthesise</h3><p>Generate nighttime street views from daytime imagery with NightDiff.</p></article>
+        <article><span>1.3</span><h3>Validate</h3><p>Compare real and synthetic scenes through visual and human assessment.</p></article>
+      </div>
+
+      <div class="prototype-gallery phase-one-gallery" aria-label="NightDiff model and validation evidence">
+        <figure class="prototype-figure prototype-featured">
+          <a href="assets/images/tdg-nightdiff-workflow.png" target="_blank" rel="noreferrer"><img src="assets/images/tdg-nightdiff-workflow.png" alt="NightDiff research workflow from paired day and night data to multimodal generation and evaluation"></a>
+          <figcaption><span class="evidence-label">Research Prototype</span><strong>A trained NightDiff workflow</strong><small>Paired day–night data, multimodal conditioning and multiple validation layers establish GenAI as part of site investigation rather than a visual after-effect.</small></figcaption>
+        </figure>
+        <figure class="prototype-figure">
+          <a href="assets/images/tdg-nightdiff-comparison.png" target="_blank" rel="noreferrer"><img src="assets/images/tdg-nightdiff-comparison.png" alt="Representative comparison of NightDiff outputs and baseline nighttime image-generation methods"></a>
+          <figcaption><span class="evidence-label">Research Prototype</span><strong>Representative model comparison</strong><small>Generated scenes are inspected across lighting conditions and compared with reference representations.</small></figcaption>
+        </figure>
+        <figure class="prototype-figure">
+          <a href="assets/images/tdg-nightdiff-lux-validation.png" target="_blank" rel="noreferrer"><img src="assets/images/tdg-nightdiff-lux-validation.png" alt="Comparison between image-derived estimates and measured illuminance values"></a>
+          <figcaption><span class="evidence-label evidence-label-validation">Validation Evidence</span><strong>Synthetic evidence must earn trust</strong><small>Image-derived outputs are checked against measured illuminance instead of being accepted on visual plausibility alone.</small></figcaption>
+        </figure>
+      </div>
+
+      <div class="evidence-layout">
+        <article class="evidence-card evidence-viewer">
+          <div class="card-heading-row">
+            <div>
+              <p class="status-label">Paired image evidence</p>
+              <h3>Compare a real and synthetic nighttime scene</h3>
+            </div>
+            <div class="segmented-control" role="group" aria-label="Choose nighttime image source">
+              <button class="is-active" type="button" data-comparison-image="ground-truth" aria-pressed="true">Ground truth</button>
+              <button type="button" data-comparison-image="nightdiff" aria-pressed="false">NightDiff</button>
+            </div>
+          </div>
+          <a id="comparison-image-link" href="assets/images/nightdiff-ground-truth-0607.png" target="_blank" rel="noreferrer" aria-label="Open the displayed nighttime image at full resolution">
+            <img id="comparison-image" src="assets/images/nightdiff-ground-truth-0607.png" alt="Ground-truth nighttime street-view stimulus GT 0607">
+          </a>
+          <p class="figure-caption" id="comparison-caption">Ground-truth nighttime stimulus · GT 0607. Select NightDiff to inspect the paired synthetic view.</p>
+        </article>
+
+        <aside class="evidence-card protocol-card">
+          <p class="status-label">Validation protocol</p>
+          <h3>Human judgement is part of the evidence</h3>
+          <p>The supplied rating tool uses anonymised and randomised stimuli. A full session presents 100 images—50 ground-truth and 50 synthetic—and records six 10-point Likert ratings.</p>
+          <ul class="plain-list">
+            <li>Perceived safety</li>
+            <li>Liveliness</li>
+            <li>Beauty</li>
+            <li>Wealthiness</li>
+            <li>Depressing quality</li>
+            <li>Boring quality</li>
+          </ul>
+          <a class="text-link" href="assets/images/likert-rating-interface.png" target="_blank" rel="noreferrer">View the supplied full-protocol interface →</a>
+        </aside>
+      </div>
+
+      <section class="rating-lab" id="rating-lab" aria-labelledby="rating-title">
+        <div class="rating-image-panel">
+          <div class="rating-image-meta">
+            <span id="rating-progress">Anonymous image 1 of 2</span>
+            <span>Source hidden during rating</span>
+          </div>
+          <img id="rating-image" src="assets/images/nightdiff-ground-truth-0607.png" alt="Anonymous nighttime scene for perception rating">
+          <p class="rating-privacy">This demonstration stores responses only in this browser. It does not transmit or aggregate visitor data.</p>
+        </div>
+
+        <form class="rating-form" id="rating-form">
+          <div>
+            <p class="status-label">Participatory demonstration</p>
+            <h3 id="rating-title">Rate your immediate visual impression</h3>
+            <p>Use 1 for the lowest perception and 10 for the highest. For “depressing” and “boring”, a higher number means a stronger negative impression.</p>
+          </div>
+
+          <div class="rating-controls">
+            <div class="rating-control"><label for="rating-safety">Perceived safety</label><output>5</output><input id="rating-safety" name="safety" type="range" min="1" max="10" value="5"></div>
+            <div class="rating-control"><label for="rating-liveliness">Liveliness</label><output>5</output><input id="rating-liveliness" name="liveliness" type="range" min="1" max="10" value="5"></div>
+            <div class="rating-control"><label for="rating-beauty">Beauty</label><output>5</output><input id="rating-beauty" name="beauty" type="range" min="1" max="10" value="5"></div>
+            <div class="rating-control"><label for="rating-wealthiness">Wealthiness</label><output>5</output><input id="rating-wealthiness" name="wealthiness" type="range" min="1" max="10" value="5"></div>
+            <div class="rating-control"><label for="rating-depressing">Depressing</label><output>5</output><input id="rating-depressing" name="depressing" type="range" min="1" max="10" value="5"></div>
+            <div class="rating-control"><label for="rating-boring">Boring</label><output>5</output><input id="rating-boring" name="boring" type="range" min="1" max="10" value="5"></div>
+          </div>
+
+          <div class="rating-actions">
+            <button class="button button-primary" type="submit">Save this response</button>
+            <button class="button button-secondary" id="next-rating-image" type="button">Next anonymous image</button>
+          </div>
+
+          <div class="rating-feedback" id="rating-feedback" aria-live="polite" hidden></div>
+
+          <div class="local-data-row">
+            <span><strong id="saved-rating-count">0</strong> responses saved in this browser</span>
+            <button class="text-button" id="download-ratings" type="button" disabled>Download CSV</button>
+            <button class="text-button" id="clear-ratings" type="button" disabled>Clear local data</button>
+          </div>
+        </form>
+      </section>
+    </section>
+
+    <section class="section transition-section" id="transition-1-2">
+      <div class="section-heading heading-wide">
+        <p class="eyebrow">Transition from Phase 1 to Phase 2</p>
+        <h2>From Perceived Environment to Observed Use of Urban Space</h2>
+        <p>No single dataset explains how urban space works at night. Phase 2 combines complementary evidence while keeping their meanings distinct.</p>
+      </div>
+      <div class="evidence-stack">
+        <article class="stack-one"><span>01</span><h3>Perceived environment</h3><p>Human ratings describe how a scene is visually interpreted.</p></article>
+        <span class="plus" aria-hidden="true">+</span>
+        <article class="stack-two"><span>02</span><h3>Measured environment</h3><p>Satellite nighttime light and street-level illumination describe different physical representations.</p></article>
+        <span class="plus" aria-hidden="true">+</span>
+        <article class="stack-three"><span>03</span><h3>Observed urban activity</h3><p>Nighttime mobile activity provides a spatial and temporal proxy for where people are present.</p></article>
+      </div>
+      <p class="boundary-note"><strong>Interpretive boundary:</strong> brightness is not equivalent to safety, activity or social interaction. The teaching method asks students to compare these constructs, not collapse them into one measure.</p>
+    </section>
+
+    <section class="section phase-section phase-section-two" id="phase-2">
+      <div class="section-heading">
+        <p class="eyebrow">Phase 2 · Student outcome and predictive extension</p>
+        <h2>Predictive User Behavior Analysis</h2>
+        <p>The selected student study compares environmental representations, examines observed activity and locates spatial mismatch without confusing association with causation. A separate predictive prototype complements this empirical reading by estimating patterns of space use and travel demand from satellite imagery.</p>
+      </div>
+
+      <div class="subsection-heading">
+        <p class="status-label">Student Outcome · Nighttime urban audit</p>
+        <h3>From environmental representation to human–space mismatch</h3>
+        <p>The teaching case moves through three connected analyses so that each observation becomes the question for the next.</p>
+      </div>
+
+      <div class="analysis-tabs" role="tablist" aria-label="Phase 2 analyses">
+        <button class="is-active" id="analysis-tab-1" type="button" role="tab" aria-selected="true" aria-controls="analysis-1" data-analysis-target="analysis-1"><span>Analysis 1</span>Compare representations</button>
+        <button id="analysis-tab-2" type="button" role="tab" aria-selected="false" aria-controls="analysis-2" data-analysis-target="analysis-2"><span>Analysis 2</span>Relate to activity</button>
+        <button id="analysis-tab-3" type="button" role="tab" aria-selected="false" aria-controls="analysis-3" data-analysis-target="analysis-3"><span>Analysis 3</span>Diagnose mismatch</button>
+      </div>
+
+      <div class="analysis-panel is-active" id="analysis-1" role="tabpanel" aria-labelledby="analysis-tab-1">
+        <div class="analysis-figure crop-compare">
+          <img src="assets/images/night-audit-satellite-vs-svi.jpg" alt="Student comparison of satellite nighttime light and street-view-based illumination" draggable="false">
+        </div>
+        <div class="analysis-copy">
+          <p class="status-label">Research question</p>
+          <h3>How do satellite and street-level nighttime-light representations differ?</h3>
+          <dl class="analysis-details">
+            <div><dt>Input</dt><dd>Satellite NTL and street-view-based NTL.</dd></div>
+            <div><dt>Method</dt><dd>Compare distributions and standardise values before cross-source analysis.</dd></div>
+            <div><dt>Learning outcome</dt><dd>Students recognise that sensing position and spatial resolution influence what is visible in an urban dataset.</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="analysis-panel" id="analysis-2" role="tabpanel" aria-labelledby="analysis-tab-2" hidden>
+        <div class="analysis-figure crop-activity">
+          <img src="assets/images/night-audit-human-activity.jpg" alt="Student analysis relating nighttime-light measures to nighttime mobile activity" draggable="false">
+        </div>
+        <div class="analysis-copy">
+          <p class="status-label">Research question</p>
+          <h3>How are environmental measures associated with observed nighttime activity?</h3>
+          <dl class="analysis-details">
+            <div><dt>Input</dt><dd>Standardised NTL measures and mobile-activity intensity.</dd></div>
+            <div><dt>Method</dt><dd>Test relationships across spatial scales and temporal windows.</dd></div>
+            <div><dt>Learning outcome</dt><dd>Students evaluate whether a representation of the environment aligns with observed use, without treating association as causation.</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="analysis-panel analysis-panel-wide" id="analysis-3" role="tabpanel" aria-labelledby="analysis-tab-3" hidden>
+        <div class="mismatch-grid">
+          <figure class="evidence-frame crop-mismatch-map">
+            <img src="assets/images/night-audit-mismatch-map.jpg" alt="Spatial mismatch analysis using absolute and relative disagreement between two NTL measures" draggable="false">
+            <figcaption>Map absolute and relative disagreement between environmental representations.</figcaption>
+          </figure>
+          <figure class="evidence-frame crop-mismatch-factors">
+            <img src="assets/images/night-audit-mismatch-factors.jpg" alt="Urban-form gradients examined in relation to nighttime-light mismatch" draggable="false">
+            <figcaption>Examine how mismatch varies with FAR, NDVI, population density and Local Climate Zones.</figcaption>
+          </figure>
+          <figure class="evidence-frame evidence-frame-wide crop-mismatch-scenarios">
+            <img src="assets/images/night-audit-mismatch-scenarios.jpg" alt="Four built-form and lighting scenarios used to interpret nighttime-light mismatch" draggable="false">
+            <figcaption>Interpret recurring combinations of top lighting, ground-floor commercial lighting, road lighting and urban form.</figcaption>
+          </figure>
+        </div>
+        <div class="analysis-copy mismatch-copy">
+          <p class="status-label">Research question</p>
+          <h3>Where do representations disagree, and what built-environment conditions may contribute?</h3>
+          <p>Mismatch is treated as a diagnostic signal. It directs attention to locations where top-down brightness and street-level illumination tell different stories, then supports closer examination of morphology, vegetation, population and lighting configuration.</p>
+        </div>
+      </div>
+
+      <div class="subsection-heading predictive-extension-heading">
+        <p class="status-label">Research Prototype · Predictive extension</p>
+        <h3>Predict how people may use space from satellite imagery</h3>
+        <p>The proposal defines user-behaviour prediction as a core Phase 2 capability. A separate case demonstrates how urban imagery can support estimates of travel intensity and bikeshare demand.</p>
+      </div>
+
+      <article class="prototype-spotlight predictive-spotlight">
+        <figure>
+          <a href="assets/images/tdg-behaviour-prediction.png" target="_blank" rel="noreferrer"><img src="assets/images/tdg-behaviour-prediction.png" alt="Satellite-image-to-bike-demand predictive mapping workflow with model comparison and test outputs"></a>
+        </figure>
+        <div>
+          <p class="status-label">Predictive space-usage mapping</p>
+          <h3>Make the user-demand prediction chain visible and testable</h3>
+          <p>The prototype compares image-to-image learning approaches for translating satellite context into bike-demand surfaces. In teaching, students can inspect the input representation, training and test split, model comparison, spatial output and uncertainty.</p>
+          <p class="boundary-note"><strong>Evidence boundary:</strong> the predictive prototype and the nighttime mismatch study are complementary teaching cases. They are not presented as one dataset or one empirical experiment.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section transition-section transition-design" id="transition-2-3">
+      <div class="section-heading heading-wide">
+        <p class="eyebrow">Transition from Phase 2 to Phase 3</p>
+        <h2>Translate Urban Diagnosis into Design Variables and Evaluation Criteria</h2>
+        <p>Analysis becomes useful for design when observed conditions are translated into controllable variables, planning constraints and explicit performance objectives.</p>
+      </div>
+
+      <div class="translation-flow">
+        <article><span>Diagnosis</span><h3>Locate and interpret mismatch</h3><p>Identify where representations and observed activity diverge; examine FAR, NDVI, population and LCZ gradients.</p></article>
+        <span aria-hidden="true">→</span>
+        <article><span>Design formulation</span><h3>Define what can change</h3><p>Select relevant variables such as height distribution, site coverage, setback, orientation, ground-floor interface, vegetation and lighting placement.</p></article>
+        <span aria-hidden="true">→</span>
+        <article><span>Design search</span><h3>Generate and evaluate alternatives</h3><p>Apply constraints, compare performance measures, select alternatives and refine the design.</p></article>
+      </div>
+
+      <div class="evidence-boundary">
+        <strong>Evidence boundary</strong>
+        <p>The nighttime study identifies analytical questions and possible built-environment contributors. The MVI study below demonstrates the method of constrained morphology generation and evaluation. It is not presented as a direct empirical solution to nighttime-light mismatch.</p>
+      </div>
+    </section>
+
+    <section class="section phase-section phase-section-three" id="phase-3">
+      <div class="section-heading">
+        <p class="eyebrow">Phase 3 · Student outcome and generative extension</p>
+        <h2>Iterative Design Ideation</h2>
+        <p>A selected student study turns design ideation into a traceable parametric search evaluated through Mountain View Index and Site Coverage Above Podium. The project prototype then extends the same logic from performance-led search to comparable morphology scenarios and environmental feedback.</p>
+      </div>
+
+      <div class="subsection-heading">
+        <p class="status-label">Student Outcome · Performance-led morphology study</p>
+        <h3>Translate a generative principle into a traceable design search</h3>
+        <p>The MVI study demonstrates how students can define constraints, produce comparable alternatives and make evaluation consequential.</p>
+      </div>
+
+      <div class="design-study-facts" aria-label="MVI study setup">
+        <article><strong>4</strong><span>Morphology families</span><small>Mixed, tower, courtyard and slab</small></article>
+        <article><strong>400</strong><span>Design alternatives</span><small>100 alternatives per family</small></article>
+        <article><strong>6.0</strong><span>Fixed plot ratio</span><small>Constant development intensity</small></article>
+        <article><strong>0.10–0.30</strong><span>SCAP range</span><small>Site Coverage Above Podium</small></article>
+      </div>
+
+      <div class="design-evidence-tabs" role="tablist" aria-label="Phase 3 design evidence">
+        <button class="is-active" id="design-tab-generation" type="button" role="tab" aria-selected="true" aria-controls="design-generation" data-design-target="design-generation">Generation workflow</button>
+        <button id="design-tab-evaluation" type="button" role="tab" aria-selected="false" aria-controls="design-evaluation" data-design-target="design-evaluation">Performance evaluation</button>
+      </div>
+
+      <div class="design-panel is-active" id="design-generation" role="tabpanel" aria-labelledby="design-tab-generation">
+        <figure class="design-figure crop-generation">
+          <a href="assets/images/mvi-parametric-generation.png" target="_blank" rel="noreferrer"><img src="assets/images/mvi-parametric-generation.png" alt="Parametric urban morphology generation workflow for four morphology types"></a>
+        </figure>
+        <div>
+          <p class="status-label">Design sequence</p>
+          <h3>Convert planning rules into a searchable design space</h3>
+          <ol class="numbered-list">
+            <li><strong>Set constraints.</strong> Fix plot ratio and define an allowable SCAP range.</li>
+            <li><strong>Parameterise form.</strong> Vary morphology family, footprint, subdivision and orientation.</li>
+            <li><strong>Generate alternatives.</strong> Produce a comparable set for each morphology family.</li>
+            <li><strong>Retain traceability.</strong> Keep each alternative linked to its parameters and performance results.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="design-panel" id="design-evaluation" role="tabpanel" aria-labelledby="design-tab-evaluation" hidden>
+        <figure class="design-figure crop-evaluation">
+          <a href="assets/images/mvi-overall-results.png" target="_blank" rel="noreferrer"><img src="assets/images/mvi-overall-results.png" alt="Overall MVI and SCAP evaluation across generated urban morphology alternatives"></a>
+        </figure>
+        <div>
+          <p class="status-label">Evaluation sequence</p>
+          <h3>Compare performance before selecting and refining a form</h3>
+          <ol class="numbered-list">
+            <li><strong>Measure performance.</strong> Evaluate Mountain View Index and SCAP for each alternative.</li>
+            <li><strong>Compare families.</strong> Examine distributions and morphology-specific tendencies.</li>
+            <li><strong>Select candidates.</strong> Identify alternatives that respond to the stated objective and constraints.</li>
+            <li><strong>Iterate.</strong> Adjust parameters and repeat the evaluation rather than selecting a single generated image.</li>
+          </ol>
+        </div>
+      </div>
+
+      <section class="morphology-extension" aria-labelledby="morphology-extension-title">
+        <div class="morphology-extension-heading">
+          <p class="status-label">Project Prototype Extension</p>
+          <h3 id="morphology-extension-title">From performance-led search to scenario testing</h3>
+          <p>After students learn to generate and evaluate traceable alternatives, the prototype extends the same iterative principle: reconstruct selected morphology scenarios, compare environmental feedback and return the evidence to the next design decision.</p>
+        </div>
+        <div class="morphology-extension-grid">
+          <figure class="prototype-figure morphology-extension-figure">
+            <a href="assets/images/tdg-gan-morphology-scenarios.png" target="_blank" rel="noreferrer"><img src="assets/images/tdg-gan-morphology-scenarios.png" alt="Generated urban morphology scenarios and corresponding three-dimensional reconstructions"></a>
+            <figcaption><span class="evidence-label">Project Prototype</span><strong>Generate comparable scenarios</strong><small>Alternative plans are reconstructed as urban forms so they can be examined as a family of possibilities rather than a single final image.</small></figcaption>
+          </figure>
+          <figure class="prototype-figure morphology-extension-figure">
+            <a href="assets/images/tdg-gan-environment-feedback.png" target="_blank" rel="noreferrer"><img src="assets/images/tdg-gan-environment-feedback.png" alt="Generated urban morphology scenarios compared through environmental-performance feedback"></a>
+            <figcaption><span class="evidence-label evidence-label-validation">Evaluation Feedback</span><strong>Return performance evidence to design</strong><small>Environmental feedback makes comparison consequential and provides a reason to select, revise and test another scenario.</small></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="closing-loop" id="closing-loop">
+        <div>
+          <p class="eyebrow">Re-audit · Integrated teaching demonstration</p>
+          <h3>Return design alternatives to the lived urban environment</h3>
+          <p>The project-wide teaching loop can be closed by representing selected morphology alternatives under day and night scenarios, asking people to assess the resulting scenes, and comparing those responses with design-performance criteria. This is a proposed integration of the supplied outputs, not an already completed causal experiment.</p>
+        </div>
+        <ol class="loop-steps">
+          <li><span>01</span>Select morphology</li>
+          <li><span>02</span>Generate day/night views</li>
+          <li><span>03</span>Collect perception ratings</li>
+          <li><span>04</span>Compare performance</li>
+          <li><span>05</span>Refine and repeat</li>
+        </ol>
+      </section>
+    </section>
+
+    <section class="section resource-section" id="resources">
+      <div class="section-heading heading-wide">
+        <p class="eyebrow">Teaching resources and dissemination</p>
+        <h2>Project Outputs Presented in This Resource</h2>
+        <p>The page combines research prototypes, validation evidence and selected student outcomes into a reusable teaching workflow. Documentation preserves the source and claim boundary of every public asset.</p>
+      </div>
+
+      <div class="resource-grid">
+        <article><span>Phase 1A</span><h3>Site Information Collection</h3><p>NightDiff-assisted environmental representation and a day–night urban audit workflow.</p><div class="resource-link-list"><a href="https://nickokai1008.github.io/NightDiff-Eclipses_Navigate_Territories_of_Justice/" target="_blank" rel="noreferrer">Visit the existing project website →</a><a href="teaching_code/README.md">Open the teaching-code supplement →</a></div></article>
+        <article><span>Phase 1B · Teaching Extension</span><h3>Human Perception Validation</h3><p>Participatory comparison of real and synthetic nighttime imagery within the site-information workflow.</p><a href="#rating-lab">Try the compact demonstration →</a></article>
+        <article><span>Phase 2</span><h3>Predictive User Behavior Analysis</h3><p>Diagnose environmental representation, activity and mismatch before extending the inquiry towards predictive demand mapping.</p><a href="#phase-2">Review the analytical sequence →</a></article>
+        <article><span>Phase 3</span><h3>Iterative Design Ideation</h3><p>Move from a traceable student design search to generative scenario testing and environmental feedback.</p><a href="#phase-3">Review the design sequence →</a></article>
+      </div>
+
+      <div class="documentation-links">
+        <a href="docs/PROJECT_OUTCOME_SUMMARY.md"><strong>Outcome summary</strong><span>Formal overview of aims, outputs and limitations</span></a>
+        <a href="docs/PROJECT_NARRATIVE.md"><strong>Project narrative</strong><span>Teaching logic and evidence boundary</span></a>
+        <a href="docs/EVIDENCE_REGISTER.md"><strong>Evidence register</strong><span>Asset provenance and claim status</span></a>
+        <a href="docs/SHARING_CHECKLIST.md"><strong>Sharing checklist</strong><span>Rights, privacy and dissemination checks</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>TDG Project 1089</strong>
+      <p>GenAI-enabled Design Tools for Teaching Next-generation Urban Designers</p>
+      <p><strong>PI:</strong> Prof. Waishan Qiu</p>
+      <p><strong>Core Members:</strong> Yuankai Wang, Xiaotong Ye</p>
+      <p><strong>Contributors:</strong> Laipeng Xu, Xinyi Kong, Chengxuan Zhang</p>
+    </div>
+    <p>Department of Urban Planning and Design · Faculty of Architecture · The University of Hong Kong</p>
+  </footer>
+
+  <noscript><p class="noscript-message">JavaScript is required for the image comparison, rating demonstration and analytical tabs. All project text and evidence links remain available without it.</p></noscript>
+</body>
+</html>
